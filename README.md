@@ -9,28 +9,29 @@ The characters can include:
 - `░` (light block)
 
 ## Algorithm
-Input Parsing: Read the list of (x, character, y) tuples.
+1. Input Parsing: Read the list of (x, character, y) tuples.
 
-Determine Grid Dimensions: Find the min/max x and y values to define the grid size.
+2. Determine Grid Dimensions: Find the min/max x and y values to define the grid size.
 
-Initialize 2D Grid: Create an empty 2D grid based on the dimensions.
+3. Initialize 2D Grid: Create an empty 2D grid based on the dimensions.
 
-Place Characters: For each tuple, place the character in the appropriate grid position.
+4. Place Characters: For each tuple, place the character in the appropriate grid position.
 
-Print the Grid: Print the grid row by row from top to bottom.
+5. Print the Grid: Print the grid row by row from top to bottom.
 
 ## Notes
-Rows are printed from top to bottom (flipping the y-axis) to match regular (x, y) graph coordinates.
+1. Rows are printed from top to bottom (flipping the y-axis) to match regular (x, y) graph coordinates.
 
-No external libraries are required — pure Python!
+2. No external libraries are required — pure Python!
 
-This implementation is based on hard-coded input but can be adapted for other input formats.
+3. This implementation is based on hard-coded input but can be adapted for other input formats.
+
 This tool is useful for visualizing hidden words or shapes stored in coordinate form and is a fun way to reveal hidden messages!
 
 ## How to Run
 1. Make sure you have Python installed (version 3.x).
-2. Save the provided Python code into a file, for example `reconstruct_word.py`.
+2. Save the provided Python code into a file, for example `reconstruct_word.ipypb`.
 3. Run it using:
 
 ```bash
-python reconstruct_word.py
+python reconstruct_word.ipypb
